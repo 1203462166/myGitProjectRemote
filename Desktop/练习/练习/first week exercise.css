@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    height: 32px;
+    /* border: 1px solid red; */
+    background: url(img/images/header-top.jpg) repeat;
+    /* vertical-align:middle; */
+    /* line-height: 32px; */
+}
+
+.logo img {
+    width: 105px;
+    height: 32px;
+}
+
+.box {
+    height: 90px;
+    width: 1093px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 0 auto;
+    line-height: 90px;
+}
+
+.box1 {
+    width: 579px;
+    /* background-color: pink; */
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.box2 {
+    width: 504px;
+    /* background-color: blue; */
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.box1 img {
+    width: 72px;
+    height: 30px;
+    
+}
+.search{
+    width: 272px;
+}
+.nav{
+    height: 306px;
+    
+}

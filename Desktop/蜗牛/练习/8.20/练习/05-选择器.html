@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 35px;
+            height: 35px;
+            border: 1px solid red;
+            background-image: url(../原稿/20210820-CSS/img/un_login_third.png);
+            background-repeat: repeat;
+            /* background-repeat:no-repeat; */
+        }
+
+        .box1 {
+            width: 35px;
+            height: 35px;
+            border: 1px solid red;
+        }
+
+        .box1:hover {
+            background-position: 0px -35px;
+        }
+
+        .box4 {
+            background-position: -210px 0px;
+        }
+
+        .box:hover {
+            background-position: -210px -35px;
+        }
+
+        /* 背景图默认平铺时，想要将盒子选中雪碧图最右上方的小图人人网，则利用平铺特性，将盒子左移一格即可，代替右移多个 */
+        h1 {
+            color: red;
+            text-align: right;
+            font-size: 50px;
+        }
+        p{
+            /* text-indent:20px; */
+            line-height:40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1"></div>
+    <div class="box box4"></div>
+    <h1>今天天气真好，适合在家睡觉</h1>
+    <p>
+        CSS （Cascading Style Sheets） 层 叠 样 式
+        表，主要用于控制网页中的样式显示。一般css样式是作用在标签上，控制标签的显示样式。层叠：css样式可以在多个地方书写，可以在标签上添加style属性添加css样式代码、style标签中书写的、外部css文件中书写css代码，层叠在一起，最终形成一套css样式作用标签上。相同的css属性只作用一个，不同的直接作用。
+    </p>
+    <div></div>
+</body>
+
+</html>

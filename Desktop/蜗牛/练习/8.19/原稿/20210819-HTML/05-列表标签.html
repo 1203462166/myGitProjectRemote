@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 无序列表 ul 默认上下有16px的margin  padding-left有40px-->
+    <!-- ul里面只能li标签 -->
+    <!-- ul、li标签都是独占一行 -->
+    <ul>
+        <li>
+            java开发
+            <ul>
+                <li>面向对象</li>
+                <li>数据库</li>
+            </ul>
+        </li>
+
+        <li>
+            web前端
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </li>
+        <li>UI设计</li>
+    </ul>
+
+    <!-- 有序列表 ol  默认上下有16px的margin 有40px的padding-left-->
+    <!-- ol里面只能放li标签  ol和li都是独占一行-->
+    <!-- 有序列表和无序列表是可以相互嵌套 -->
+    <ol>
+        <li>测试开发</li>
+        <li>网络安全</li>
+        <li>web前端
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+    </ol>
+    <span>span</span>
+    <!-- 定义列表 dl-->
+    <!-- dt 指定一个名词  dd:针对名词进行解释说明 -->
+    <!-- dl/dt/dd 独占一行 -->
+    <dl>
+        <dt>中国</dt>
+        <dd>中华人民共和国</dd>
+        <dt>汽水</dt>
+        <dd>冒着泡泡的肥仔水</dd>
+    </dl>
+    <!-- 跑马灯 -->
+    <marquee behavior="" direction="">公告：明天周五，不上晚自习</marquee>
+    <iframe src="目标网页的文件路径" frameborder="1" width="显示区域的宽度" height="显示区域的高度"></iframe>
+    <fieldset>
+        <legend> 边框上的标题</legend>
+        <form action="">
+            用户名：<input type="text">
+            密码：<input type="password">
+            <button>登录</button>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

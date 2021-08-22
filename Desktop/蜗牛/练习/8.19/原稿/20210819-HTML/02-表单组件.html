@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>普通输入框</h3>
+    <!-- 
+        placeholder：文本框默认的提示性信息
+        value：设置文本框中的默认值
+     -->
+    <label for="names">姓名：</label>
+    <input type="text" placeholder="请输入姓名" value="zhangsan" id="names">
+    <h3>密码框</h3>
+    密码： <input type="password">
+    <h3>单选框</h3>
+    <!-- 单选框需要设置相同的name值进行绑定 -->
+    <!-- label特殊用法：for属性可以指定表单元素的id名，点击label里面的文本可以控制指定的表单元素获取焦点 -->
+    性别：
+    <input type="radio" name="sex" id="nan"> <label for="nan">男</label>
+    <input type="radio" name="sex" id="nv"> <label for="nv">女</label>
+    <input type="radio" name="sex" id="wz" checked> <label for="wz">未知 </label>
+    <h3>复选框</h3>
+    <!-- checked可以控制单选和复选框默认选中 -->
+    爱好：
+    <input type="checkbox" checked>LOL
+    <input type="checkbox" checked>王者
+    <input type="checkbox">开心消消乐
+    <h3>下拉列表</h3>
+    <!-- 默认显示第一个选项，selected设置默认显示的选项 -->
+    <!-- multiple设置再select标签上，可以实现多选 -->
+    证件：
+    <select name="" id="">
+        <option value="">身份证</option>
+        <option value="">驾驶证</option>
+        <option value="" selected>学生证</option>
+    </select>
+    <h3>文本域</h3>
+    描述：
+    <!-- 
+        cols：一行可以输入多少个字符
+        rows：文本域可以显示几行
+        可以变相控制文本域的宽高
+     -->
+    <textarea name="" id="" cols="10" rows="5"></textarea>
+    <h3>按钮</h3>
+    <!-- 重置和提交按钮需要配合form标签一起使用 -->
+    <input type="button" value="普通按钮">
+    <input type="reset" value="重置按钮">
+    <input type="submit" value="提交按钮">
+    <button>按钮</button>
+    <button type="button">普通按钮</button>
+    <button type="reset">重置按钮</button>
+    <button type="submit">提交按钮</button>
+</body>
+
+</html>

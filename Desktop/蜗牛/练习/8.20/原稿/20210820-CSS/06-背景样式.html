@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            /* 设置标签的宽度 */
+            width: 800px;
+            /* 设置标签的高度 必须带单位*/
+            height: 400px;
+            /* 设置边框  宽度 类型  颜色    solid实线*/
+            border: 1px solid red;
+            /* 设置背景颜色   单词  #十六进制  rgb(0~255,0~255,0~255)*/
+            /* background-color: pink; */
+            /* 设置背景图片 url(连接图片的文件路径)  图片默认从左上开始铺设,铺不满会平铺*/
+            /* 注意:背景图片和背景颜色同时存在,图片会盖住背景颜色 */
+            /* background-image: url(img/img-3.jpg); */
+            /* 设置背景图片是否平铺 
+                repeat:默认值,x轴和y轴平铺
+                repeat-x:x轴方向进行平铺
+                repeat-y:y轴方向进行平铺
+                no-repeat:不平铺
+            */
+            /* background-repeat:no-repeat; */
+            /* 设置背景图片的位置 */
+            /* 
+                单词:left 左  right右  center 中间  top 上 bottom 下  两两搭配使用
+                x轴 y轴: 
+                    像素,默认位置 0px 0px
+                    百分比 50% 50%相当于center center
+            */
+            background-position: 50% 50%;
+            /* 设置背景图片的大小   css3提出 */
+            /* 
+                contain:一边铺满,另外一边不管
+                cover:两边都屏幕,超出部分隐藏
+                x轴 y轴: 宽度  高度  如果设置两个值,图片可能变形,设置一个值代表宽度
+                    设置百分比分别参考盒子宽度和高度
+            */
+            background-size: 50% 100%;
+            /* 设置背景图片是否固定 scroll默认值,随之滚动条滚动 */
+            /* background-attachment: fixed; */
+
+            /* 复合属性 /前面代表位置,后面代表大小 */
+            background: pink url(img/img-3.jpg) no-repeat 50% 50% /100px 100px fixed; 
+            background-color: tomato;
+            
+           
+        }
+        .box1{
+            width: 400px;
+            height: 800px;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">box</div>
+    <div class="box1"></div>
+</body>
+</html>

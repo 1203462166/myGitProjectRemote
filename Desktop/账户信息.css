@@ -1,0 +1,41 @@
+table{
+    width: 676px;
+    height: 423px;
+}   
+/* .little{
+    align:center; 
+} */
+.tablesm{
+    width: 566px;
+    height: 359px;
+}
+.user {
+    height: 23px;
+    background-color: #2589bb;
+}
+span{
+    color: red;
+    width: 173px;
+} 
+.orange{
+    color: #eebd4e;
+    font-weight: bold;
+    font-size:10px;
+}
+.first{
+    width: 173px;
+    height: 26px;
+}
+.second{
+    width: 130px;
+    align:center;
+}
+button{
+    background-color: #faa901;
+}
+a{
+    color:7677d7;
+}  
+/* .second{
+    align:center;
+} */

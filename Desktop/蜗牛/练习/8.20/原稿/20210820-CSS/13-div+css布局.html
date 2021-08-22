@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(img/black-earth.jpg);
+            /* body默认由8px的外边距margin */
+            margin: 0;
+        }
+        .header{
+            width: 1100px;
+            height: 90px;
+            /* border: 1px solid red; */
+            /* 可以让盒子水平居中 */
+            margin: 0 auto;
+        }
+        .logo{
+            width: 525px;
+            height: 90px;
+            /* background-color: pink; */
+            /* 行内元素中间有5px的间距 */
+            display: inline-block;
+            /* 设置行级元素垂直方向的对齐方式  ，middle 中线 */
+            vertical-align: middle;
+        }
+        .nav{
+            width: 570px;
+            height: 90px;
+            /* background-color: tomato; */
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .logo-img{
+            /* 这是上方外边距 */
+            margin-top: 10px;
+        }
+        ul{
+            /* 取消默认margin和padding */
+            margin: 0px;
+            padding: 0px;
+            /* 取消无序列表的小圆点 */
+            list-style: none;
+        }
+        li{
+            width: 110px;
+            height: 90px;
+            /* border: 1px solid green; */
+            display: inline-block;
+
+            text-align: center;
+            line-height: 90px;
+        }
+        .icon{
+            vertical-align: middle;
+            width: 30px;
+        }
+        span{
+            color: white;
+            vertical-align: middle;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="" class="logo-img">
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/java-icon.png" alt="" class="icon">
+                        <span>java开发</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/test-icon.png" alt="" class="icon">
+                        <span>测试开发</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/about.png" alt="" class="icon">
+                        <span>测试开发</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img//android-icon.png" alt="" class="icon">
+                        <span>测试开发</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/communicate.png" alt="" class="icon">
+                        <span>测试开发</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

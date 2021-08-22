@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 标签选择器：通过标签上标签名找到指定标签 */
+        /* 在没有指定范围，找到页面中所有标签 */
+        /* p{
+           color: red; 
+        }
+        h1{
+            color: red;
+        } */
+        /* 相同选择器，后面的样式会盖住前面的样式 */
+        /* 类选择器（class选择器）：通过标签上的class名找到对应的标签 */
+        /* 不同类型的标签可以提取公共样式 */
+        .op{
+            color: red;
+        }
+        .oa{
+            background-color: pink;
+        }
+        /* .op{
+            color: green;
+        } */
+        /* 选择器中间没有空格，代表并且的意思 */
+        .op.oa{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 如果标签上作用多个类选择器的样式，可以设置多个class名，中间使用空格隔开 -->
+    <p class="op oa">p1</p>
+    <p class="op ob oa">p2</p>
+    <p class="oa">p3</p>
+    <h1 class="op">h1</h1>
+</body>
+</html>

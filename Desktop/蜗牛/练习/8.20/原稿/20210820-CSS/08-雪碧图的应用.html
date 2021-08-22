@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 35px;
+            height: 35px;
+            border: 1px solid red;
+            background-image: url(img/un_login_third.png);
+        }
+        .box1{
+            /* width: 35px;
+            height: 35px;
+            border: 1px solid red;
+            background-image: url(img/un_login_third.png); */
+            background-repeat: no-repeat;
+        }
+        .box2{
+            /* width: 35px;
+            height: 35px;
+            border: 1px solid red;
+            background-image: url(img/un_login_third.png); */
+            background-repeat: no-repeat;
+            background-position: 0px -35px;
+        }
+        .box3{
+            /* width: 35px;
+            height: 35px;
+            border: 1px solid red ;
+            background-image: url(img/un_login_third.png); */
+            background-repeat: no-repeat;
+        }
+        /* :hover 鼠标移入标签时作用的样式，原来标签上的样式依然保留，更改或添加样式 */
+        .box3:hover{
+            /* width: 35px;
+            height: 35px;
+            border: 1px solid red;
+            background-image: url(img/un_login_third.png);
+            background-repeat: no-repeat; */
+            background-position: 0px -35px;
+        }
+        .box4{
+            /* width: 35px;
+            height: 35px;
+            border:1px solid red;
+            background-image: url(img/un_login_third.png); */
+            /* 方案一：图片不平铺 */
+             /* background-repeat: no-repeat; */
+            /*background-position: -210px 0px; */
+            /* 方案二：图片平铺 */
+            background-position: 35px 0px;
+        }
+        .box4:hover{
+              /* 方案一：图片不平铺 */
+            /* background-position: -210px -35px; */
+             /* 方案二：图片平铺 */
+             background-position: 35px -35px;
+             
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="img/un_login_third.png" alt=""> -->
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+</body>
+</html>

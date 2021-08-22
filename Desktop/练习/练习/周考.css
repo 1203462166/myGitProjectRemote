@@ -1,0 +1,35 @@
+.box{
+    width: 94px;
+    height: 94px;
+    border: 1px solid #000;
+    background-image: url(img/icons.jpg);
+    background-position: 
+    -339px -159px;
+}
+.box:hover{
+    background-position: 
+    -233px -159px;
+}
+table{
+    /* border: 1px solid red; */
+    width: 414px;
+    height: 518px;
+} 
+.pink{
+    background-color: #fbe5c8;
+} 
+.grey{
+    background-color: #f5f5df;
+} 
+.pink.grey{
+    height:39px ;
+}
+span{
+    font-weight: bold;
+}
+div{
+    width: 70%;
+    height: 70%;
+    border: red 1px solid;
+    background-color: black;
+}

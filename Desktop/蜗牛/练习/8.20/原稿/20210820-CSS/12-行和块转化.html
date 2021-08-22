@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            border: 1px solid red;
+            /* 转为块级标签 */
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+        label{
+            border: 1px solid red;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            /* 转为行内块级元素 */
+            /* display: inline-block; */
+            /* 转为i行内元素 */
+            display: inline;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background: tomato;
+            /* 隐藏元素，从页面中消失 */
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <span>span1</span>
+    <label for="">label</label>
+    <div class="box1"></div>
+    <div class="box">box</div>
+    
+</body>
+</html>

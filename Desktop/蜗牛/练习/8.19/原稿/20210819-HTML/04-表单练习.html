@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 7行2列表格 -->
+    <!-- 3 可以，即包含所有的表单元素，又不会破坏表格的结构 -->
+    <form action="">
+        <table border="0" width="550px" align="center" cellspacing="8px">
+            <!-- 2 不可以，会破坏表格的结构-->
+
+            <tr>
+                <!-- 1  不能，不能包含所有的表单元素，会破坏表格结构-->
+
+                <td align="right" width="150px">
+                    <span style="color: red;">*</span> 手机号码：
+                </td>
+                <td>
+                    <!-- &nbsp; 转义字符，空格 -->
+                    <!-- &nbsp; &nbsp; &nbsp; -->
+                    <input type="text" style="width: 260px;height: 45px;">
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    使用微博账号直接<a href="" style="color: blue;">登录</a>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="150px">
+                    <span style="color: red;">*</span> 设置密码：
+                </td>
+                <td>
+                    <!-- &nbsp; 转义字符，空格 -->
+                    <!-- &nbsp; &nbsp; &nbsp; -->
+                    <input type="password" style="width: 260px;height: 45px;">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="150px">
+                    <span style="color: red;">*</span> 兴趣爱好：
+                </td>
+                <td>
+                    <input type="checkbox">新闻
+                    <input type="checkbox">娱乐
+                    <input type="checkbox">IT
+                    <input type="checkbox">新闻
+                    <input type="checkbox">娱乐
+                    <br>
+                    <input type="checkbox">IT
+                    <input type="checkbox">新闻
+                    <input type="checkbox">娱乐
+                    <input type="checkbox">IT
+                    <input type="checkbox">IT
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="150px">
+                    <span style="color: red;">*</span> 发送短信：
+                </td>
+                <td>
+                    <button style="width: 200px;height: 40px;">点击发送短信</button>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a href="" style="color: blue;"> 《新浪网络安全服务协议》</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a href="" style="color: blue;"> 《新浪网络安全服务政策》</a>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
